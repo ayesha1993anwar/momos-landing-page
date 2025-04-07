@@ -1,0 +1,137 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+
+* {
+  font-family: "Poppins", serif;
+  font-weight: 300;
+  font-style: normal;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-image: url(https://images.unsplash.com/photo-1534422298391-e4f8c172dddb?q=80&w=1469&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D);
+  background-size: cover;
+  background-repeat: no-repeat;
+  /* background-color: #85ffbd;
+  background-image: linear-gradient(45deg, #85ffbd 0%, red 50%, #fffb7d 100%); */
+}
+
+#nav_bar {
+  background-color: black;
+  display: flex;
+  justify-content: space-between;
+  color: white;
+  align-items: center;
+  height: 10vh;
+}
+
+#nav_div {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  gap: 25px;
+  margin-right: 30px;
+}
+
+.btn {
+  background-color: black;
+  color: white;
+  border: none;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+#btn_call {
+  display: flex;
+  align-items: center;
+  border-radius: 20px;
+  padding: 8px;
+  gap: 4px;
+  background-color: #dc2726;
+  width: 110px;
+  color: white;
+  font-size: 15px;
+}
+
+#btn_call span {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+#heading h1 {
+  color: #dc2726;
+  font-weight: 500;
+  margin-left: 50px;
+}
+
+#container-1 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+
+#main-container {
+  height: 90vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+#container-1 h1 {
+  font-weight: 600;
+  color: white;
+}
+
+#container-1 span {
+  color: #dc2726;
+  font-weight: 600;
+}
+
+#container-1 p {
+  font-size: 18px;
+  font-weight: 400;
+  color: white;
+}
+
+#btn-area {
+  display: flex;
+  gap: 30px;
+  margin-top: 20px;
+}
+
+#btn-2 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #dc2726;
+  /* border: none; */
+  background-color: white;
+  padding: 15px;
+  width: 170px;
+  border-radius: 8px;
+  font-size: 17px;
+  font-weight: 400;
+}
+
+.btn-box {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 2px;
+  border: 2px solid black;
+  padding: 17px;
+  border-radius: 8px;
+  width: 170px;
+  background-color: #dc2726;
+}
+
+#btn-area span {
+  color: white;
+}
+
+#arrow-image {
+  margin-top: 7px;
+}
